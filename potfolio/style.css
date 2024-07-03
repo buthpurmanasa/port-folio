@@ -1,0 +1,44 @@
+.row-padding{
+ padding: 0 16px; 
+padding: 30px;
+
+}
+.w3-row-padding {
+    margin:0 -16px; 
+    text-align: center; 
+    padding: 20px;
+}
+.html-icon{
+    height: 60px;
+    width: 60px;
+   margin: auto;
+}
+.cart {
+    box-shadow: 10px 0px 20px;
+}
+.cart:hover{
+transform: translatey(-7px);
+}
+.form{
+width: 500px;
+margin: auto;
+padding: 8px;
+}
+.about{
+    
+     background-color: lightgray;
+}
+@keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .name-animation {
+    animation: slideIn 1.5s ease-in-out;
+  }
